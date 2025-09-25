@@ -52,7 +52,7 @@ function Youtube() {
 
         {/*main section  */}
         <main className="w-full  bg-white flex flex-row items-start justify-between p-4 gap-6 ">
-            <div className="fixed top-[70px] left-2 w-[18%] h-[calc(100vh-64px)] flex flex-col items-center justify-start gap-3  overflow-y-auto  ">
+            <div className="fixed top-[100px] left-2 w-[18%] h-[calc(100vh-64px)] hidden lg:flex flex-col items-center justify-start gap-3  overflow-y-auto  ">
                 <div className="rounded-xl hover:bg-gray-300 text-black w-full flex flex-row items-start justify-start cursor-pointer gap-3 mb-4 px-4 py-2">
                     <IoIosHome className="text-3xl flex items-center" />
                     <span className="text-2xl">Home</span>
@@ -140,20 +140,20 @@ function Youtube() {
                 
             </div>
 
-            <div className="ml-[20%] w-[80%] mt-[64px]  flex flex-col items-center justify-center p-3 gap-6   ">
-                <ul className="flex flex-row items-center justify-center  gap-3 w-full">
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">All</li> 
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Live</li>
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">News</li> 
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Music</li>
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Podcasts</li>
-                      <li className="w-46 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Data Structures</li>
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Debates</li>
-                      <li className="w-46 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">E-commerce</li>
-                      <li className="w-32 h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Debates</li>
-                      
+            <div className="ml-0 lg:ml-[20%] w-full lg:w-[80%] mt-[64px]  flex flex-col items-center justify-center p-3 gap-6   ">
+                <ul className="flex flex-row items-center gap-3 w-full overflow-x-auto whitespace-nowrap">
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">All</li> 
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Live</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">News</li> 
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Music</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Podcasts</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Data Structures</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Debates</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">E-commerce</li>
+                      <li className="min-w-[10rem] h-12 p-2 rounded-2xl bg-gray-200 text-black hover:bg-black hover:text-white text-center cursor-pointer">Debates</li>                
                 </ul>
-                <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-6 w-full p-3">
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 items-center justify-between gap-6 w-full p-3">
                     <div className=" flex flex-col items-start justify-start gap-3 cursor-pointer rounded-2xl">
                         <img src="/image/pic49.jpg" alt="" className="rounded-xl" />
                         <div className="flex flex-row items-start justify-between gap-3 px-4 py-2"> 
